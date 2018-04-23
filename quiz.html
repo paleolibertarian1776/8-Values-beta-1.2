@@ -49,9 +49,9 @@ stats"></a></div></noscript>
 <!-- JavaScript for the test itself -->
 <script>
     var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
-    max_econ = max_dipl = max_govt = max_scty = 0;
+    max_econ = max_dipl = max_govt = max_scty = max_intr = 0;
     var econ, dipl, govt, scty; // User's scores
-    econ = dipl = govt = scty = 0;
+    econ = dipl = govt = scty =intr = 0;
     var qn = 0; // Question number
     var prev_answer = null;
     init_question();
@@ -60,6 +60,7 @@ stats"></a></div></noscript>
         max_dipl += Math.abs(questions[i].effect.dipl)
         max_govt += Math.abs(questions[i].effect.govt)
         max_scty += Math.abs(questions[i].effect.scty)
+        max_intr += Math.abs(questions[i].effect.intr
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
@@ -77,6 +78,7 @@ stats"></a></div></noscript>
         dipl += mult*questions[qn].effect.dipl
         govt += mult*questions[qn].effect.govt
         scty += mult*questions[qn].effect.scty
+        intr += mult*questions[qn].effect.intr
         qn++;
         prev_answer = mult;
         if (qn < questions.length) {
@@ -94,6 +96,7 @@ stats"></a></div></noscript>
         dipl -= prev_answer * questions[qn].effect.dipl;
         govt -= prev_answer * questions[qn].effect.govt;
         scty -= prev_answer * questions[qn].effect.scty;
+        intr -= prev_answer * questions[qn].effect.intr;
         prev_answer = null;
         init_question();
     }
@@ -106,6 +109,7 @@ stats"></a></div></noscript>
             + `&d=${calc_score(dipl,max_dipl)}`
             + `&g=${calc_score(govt,max_govt)}`
             + `&s=${calc_score(scty,max_scty)}`
+            + `&s=${calc_score(intr,max_intr)}`
     }
 </script>
 </body>
