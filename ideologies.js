@@ -1,12 +1,13 @@
+
 ideologies = [
     {
         "name": "Anarcho-Communism",
         "stats": {
             "econ": 100,
             "dipl": 50,
-            "intr": 0,
             "govt": 100,
-            "scty": 90
+            "scty": 90,
+            "intr": 50
         }
     },
     {
@@ -14,9 +15,9 @@ ideologies = [
         "stats": {
             "econ": 100,
             "dipl": 70,
-            "intr": 0,
             "govt": 80,
-            "scty": 80
+            "scty": 80,
+            "intr": 30
         }
     },
     {
@@ -24,9 +25,9 @@ ideologies = [
         "stats": {
             "econ": 100,
             "dipl": 100,
-            "intr": 80
             "govt": 60,
-            "scty": 80
+            "scty": 80,
+            "intr": 0
         }
     },
     {
@@ -34,9 +35,9 @@ ideologies = [
         "stats": {
             "econ": 100,
             "dipl": 70,
-            "intr": 30
             "govt": 40,
-            "scty": 80
+            "scty": 80,
+            "intr": 30
         }
     },
     {
@@ -44,9 +45,9 @@ ideologies = [
         "stats": {
             "econ": 100,
             "dipl": 30,
-            "intr": 0,
             "govt": 30,
-            "scty": 80
+            "scty": 80,
+            "intr": 70
         }
     },
     {
@@ -54,9 +55,9 @@ ideologies = [
         "stats": {
             "econ": 100,
             "dipl": 40,
-            "intr": 30,
             "govt": 20,
-            "scty": 70
+            "scty": 70,
+            "intr": 60
         }
     },
     {
@@ -64,7 +65,6 @@ ideologies = [
         "stats": {
             "econ": 100,
             "dipl": 20,
-            "intr": 80,
             "govt": 0,
             "scty": 60
         }
@@ -74,7 +74,6 @@ ideologies = [
         "stats": {
             "econ": 100,
             "dipl": 50,
-            "intr": 50,
             "govt": 30,
             "scty": 30
         }
@@ -84,7 +83,6 @@ ideologies = [
         "stats": {
             "econ": 80,
             "dipl": 30,
-            "intr": 60,
             "govt": 30,
             "scty": 70
         }
@@ -94,7 +92,6 @@ ideologies = [
         "stats": {
             "econ": 80,
             "dipl": 50,
-            "intr": 50,
             "govt": 30,
             "scty": 20
         }
@@ -104,7 +101,6 @@ ideologies = [
         "stats": {
             "econ": 80,
             "dipl": 50,
-            "intr": 50,
             "govt": 70,
             "scty": 20
         }
@@ -114,7 +110,6 @@ ideologies = [
         "stats": {
             "econ": 80,
             "dipl": 50,
-            "intr": 50,
             "govt": 50,
             "scty": 80
         }
@@ -124,7 +119,6 @@ ideologies = [
         "stats": {
             "econ": 80,
             "dipl": 20,
-            "intr": 80,
             "govt": 50,
             "scty": 70
         }
@@ -134,7 +128,6 @@ ideologies = [
         "stats": {
             "econ": 80,
             "dipl": 80,
-            "intr": 20,
             "govt": 80,
             "scty": 80
         }
@@ -144,7 +137,6 @@ ideologies = [
         "stats": {
             "econ": 80,
             "dipl": 50,
-            "intr": 50,
             "govt": 100,
             "scty": 80
         }
@@ -154,7 +146,6 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 40,
-            "intr": 60,
             "govt": 30,
             "scty": 70
         }
@@ -164,7 +155,6 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 40,
-            "intr": 60,
             "govt": 30,
             "scty": 20
         }
@@ -174,7 +164,6 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 50,
-            "intr": 50,
             "govt": 50,
             "scty": 20
         }
@@ -184,7 +173,6 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 60,
-            "intr": 40,
             "govt": 60,
             "scty": 80
         }
@@ -194,7 +182,6 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 60,
-            "intr": 40,
             "govt": 40,
             "scty": 30
         }
@@ -204,7 +191,6 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 70,
-            "intr": 30,
             "govt": 40,
             "scty": 80
         }
@@ -214,7 +200,6 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 80,
-            "intr": 20,
             "govt": 60,
             "scty": 100
         }
@@ -224,7 +209,6 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 50,
-            "intr": 50,
             "govt": 100,
             "scty": 70
         }
@@ -234,7 +218,6 @@ ideologies = [
         "stats": {
             "econ": 50,
             "dipl": 20,
-            "intr": 80,
             "govt": 0,
             "scty": 50
         }
@@ -244,7 +227,6 @@ ideologies = [
         "stats": {
             "econ": 50,
             "dipl": 80,
-            "intr": 20,
             "govt": 0,
             "scty": 50
         }
@@ -254,7 +236,6 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 60,
-            "intr": 40,
             "govt": 20,
             "scty": 70
         }
@@ -264,7 +245,6 @@ ideologies = [
         "stats": {
             "econ": 50,
             "dipl": 50,
-            "intr": 50,
             "govt": 50,
             "scty": 50
         }
@@ -274,7 +254,6 @@ ideologies = [
         "stats": {
             "econ": 50,
             "dipl": 60,
-            "intr": 40,
             "govt": 60,
             "scty": 60
         }
@@ -284,7 +263,6 @@ ideologies = [
         "stats": {
             "econ": 50,
             "dipl": 50,
-            "intr": 50,
             "govt": 0,
             "scty": 20
         }
@@ -294,7 +272,6 @@ ideologies = [
         "stats": {
             "econ": 40,
             "dipl": 30,
-            "intr": 70,
             "govt": 30,
             "scty": 30
         }
@@ -304,7 +281,6 @@ ideologies = [
         "stats": {
             "econ": 40,
             "dipl": 40,
-            "intr": 60,
             "govt": 50,
             "scty": 30
         }
@@ -314,7 +290,6 @@ ideologies = [
         "stats": {
             "econ": 40,
             "dipl": 40,
-            "intr": 60,
             "govt": 40,
             "scty": 10
         }
@@ -324,7 +299,6 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 70,
-            "intr": 30,
             "govt": 80,
             "scty": 70
         }
@@ -334,7 +308,6 @@ ideologies = [
         "stats": {
             "econ": 40,
             "dipl": 60,
-            "intr": 40,
             "govt": 80,
             "scty": 60
         }
@@ -344,7 +317,6 @@ ideologies = [
         "stats": {
             "econ": 40,
             "dipl": 50,
-            "intr": 50,
             "govt": 100,
             "scty": 50
         }
@@ -354,7 +326,6 @@ ideologies = [
         "stats": {
             "econ": 40,
             "dipl": 0,
-            "intr": 80,
             "govt": 0,
             "scty": 5
         }
@@ -364,7 +335,6 @@ ideologies = [
         "stats": {
             "econ": 50,
             "dipl": 20,
-            "intr": 80,
             "govt": 20,
             "scty": 50
         }
@@ -374,7 +344,6 @@ ideologies = [
         "stats": {
             "econ": 40,
             "dipl": 20,
-            "intr": 80,
             "govt": 20,
             "scty": 20
         }
@@ -384,7 +353,6 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 20,
-            "intr": 80,
             "govt": 20,
             "scty": 20
         }
@@ -394,7 +362,6 @@ ideologies = [
         "stats": {
             "econ": 30,
             "dipl": 40,
-            "intr": 60,
             "govt": 40,
             "scty": 20
         }
@@ -404,7 +371,6 @@ ideologies = [
         "stats": {
             "econ": 30,
             "dipl": 30,
-            "intr": 70,
             "govt": 50,
             "scty": 60
         }
@@ -414,7 +380,6 @@ ideologies = [
         "stats": {
             "econ": 30,
             "dipl": 60,
-            "intr": 40,
             "govt": 60,
             "scty": 80
         }
@@ -424,7 +389,6 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 30,
-            "intr": 70,
             "govt": 20,
             "scty": 40
         }
@@ -434,7 +398,6 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 50,
-            "intr": 50,
             "govt": 30,
             "scty": 50
         }
@@ -444,7 +407,6 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 20,
-            "intr": 80,
             "govt": 40,
             "scty": 20
         }
@@ -454,7 +416,6 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 30,
-            "intr": 70,
             "govt": 30,
             "scty": 5
         }
@@ -464,7 +425,6 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 50,
-            "intr": 50,
             "govt": 80,
             "scty": 60
         }
@@ -474,7 +434,6 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 50,
-            "intr": 50,
             "govt": 100,
             "scty": 50
         }
@@ -484,7 +443,6 @@ ideologies = [
         "stats": {
             "econ": 10,
             "dipl": 50,
-            "intr": 50,
             "govt": 90,
             "scty": 40
         }
@@ -494,7 +452,6 @@ ideologies = [
         "stats": {
             "econ": 0,
             "dipl": 30,
-            "intr": 70,
             "govt": 0,
             "scty": 50
         }
@@ -504,7 +461,6 @@ ideologies = [
         "stats": {
             "econ": 0,
             "dipl": 40,
-            "intr": 60,
             "govt": 50,
             "scty": 50
         }
@@ -514,7 +470,6 @@ ideologies = [
         "stats": {
             "econ": 0,
             "dipl": 50,
-            "intr": 50,
             "govt": 100,
             "scty": 50
         }
